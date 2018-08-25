@@ -27,7 +27,7 @@ function myTweets() {
 	});
 
 	var params = {
-		screen_name: 'testacctcolumb1',
+		myTwitterUserName: 'testacctcolumb1',
 		count: 8
 	};
  
@@ -107,8 +107,8 @@ function movieSearch(movie) {
 						}
 						if (body && JSON.parse(body) && JSON.parse(body).Response === "True") {
                             body = JSON.parse(body);
-                            console.log("Here's some information for that movie you were searching: \n");
-
+                            // console.log("Here's some information for that movie you were searching: \n");
+							console.log("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/> It's on Netflix! Here's some information on it:\n");
 							console.log("  Title: " + body.Title);
 							console.log("  Year: " + body.Year);
 							for (var j = 0; j < body.Ratings.length; j++) {
@@ -142,8 +142,7 @@ function movieSearch(movie) {
 				}
 				if (body && JSON.parse(body) && JSON.parse(body).Response === "True") {
 					body = JSON.parse(body);
-                    // console.log("Here's some information for that movie you were searching: \n");
-                    console.log("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/> It's on Netflix! Here's some information on it:\n");
+                    console.log("Here's some information for that movie you were searching: \n");
 					console.log("  Title: " + body.Title);
 					console.log("  Year: " + body.Year);
 					for (var j = 0; j < body.Ratings.length; j++) {
