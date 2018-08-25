@@ -107,7 +107,8 @@ function movieSearch(movie) {
 						}
 						if (body && JSON.parse(body) && JSON.parse(body).Response === "True") {
                             body = JSON.parse(body);
-                            console.log("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/> It's on Netflix! Here's some information on it:\n");
+                            console.log("Here's some information for that movie you were searching: \n");
+
 							console.log("  Title: " + body.Title);
 							console.log("  Year: " + body.Year);
 							for (var j = 0; j < body.Ratings.length; j++) {
@@ -141,7 +142,8 @@ function movieSearch(movie) {
 				}
 				if (body && JSON.parse(body) && JSON.parse(body).Response === "True") {
 					body = JSON.parse(body);
-                    console.log("Here's some information for that movie you were searching: \n");
+                    // console.log("Here's some information for that movie you were searching: \n");
+                    console.log("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/> It's on Netflix! Here's some information on it:\n");
 					console.log("  Title: " + body.Title);
 					console.log("  Year: " + body.Year);
 					for (var j = 0; j < body.Ratings.length; j++) {
@@ -208,7 +210,7 @@ function parseCommand(command, arg) {
 		break;
 
 	default:
-		console.log("I'm sorry, but I'm not sure what you mean by that. Please enter a valid command.");
+        console.log("I'm sorry, but I'm not sure what you mean by that. Please enter one of the following commands:\n \n'my-tweets': Show my latest 8 Tweets \n'spotify-this-song': Search Spotify API for information regarding song search \n'movie-this': Search OMBI API for information regarding movie search\n'do-what-it-says': Preforms command through random.txt file\n");
 		break;
 
 	}
