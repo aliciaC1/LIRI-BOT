@@ -44,7 +44,7 @@ Running the command `node liri.js spotify-this-song <'song name'>` will return t
 If no song name is given, will return suggested song. 
 
 ### IMDb API
-![alt text](./screenshots/goodfellas.gif)
+![alt text](./screenshots/goodfellasm.gif)
 
 Running the command `node liri.js movie-this <'movie name'>` will return the movie info from OMDb. 
 
