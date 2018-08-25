@@ -27,31 +27,31 @@ Finally, you can open the liri.js file and change the myTwitterUserName variable
 Note that the Spotify API and IMDb do not need special keys, so you can run the app with minimal setup if you wish to skip over the Twitter API functionality.
 To run the app, simply use the node liri.js [command-here] format discussed above. Please refer to the screenshots for specific examples. Be sure that you cd into the liri-node-app folder before running the commands.
 
-##Screenshots
+## Screenshots
 ____________________________________________________________________________________________
-###Twitter API
+### Twitter API
 ![alt text](./screenshots/tweetss.png)
 
 Running the command node liri.js my-tweets will return my 8 most recent tweets. Twitter Command
 
-###Spotify API
+### Spotify API
 ![alt text](./screenshots/spotifyss.png)
 
 Running the command node liri.js spotify-this-song <'song name'> will return the track info from Spotify. Spotify Command
 
-###IMDb API
+### IMDb API
 ![alt text](./screenshots/moviess.png)
 
 Running the command node liri.js movie-this <'movie name'> will return the movie info from IMDb. IMDb Command
 
-###Node fs file reader
+### Node fs file reader
 ![alt text](./screenshots/randomss.png)
 
 Running the command node liri.js do-what-it-says will read a command out of the random.txt file and perform it. Random Command
 
 Note that in this case, the random.txt file contians the command to Spotify the song "I Want It That Way". The random.txt file can be changed to perform any of the 3 types of commands listed above.
 
-###Error Handling
+### Error Handling
 ![alt text](./screenshots/errorss.png)
 
 If the LIRI inputs are incomplete, the user will be prompted with a list of possible commands. 
