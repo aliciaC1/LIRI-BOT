@@ -30,35 +30,35 @@ To run the app, simply use the `node liri.js [command-here]` format discussed ab
 ## Screenshots
 ____________________________________________________________________________________________
 ### Twitter API
-![alt text](./screenshots/tweetss.png)
+![alt text](./screenshots/my-tweets.gif)
 
 Running the command `node liri.js my-tweets` will return my 8 most recent tweets. Twitter Command
 
 ### Spotify API
-![alt text](./screenshots/spotifyss.png)
+![alt text](./screenshots/heyjude.gif)
 
 Running the command `node liri.js spotify-this-song <'song name'>` will return the track info from Spotify. Spotify Command
 
-![alt text](./screenshots/thesign.png)
+![alt text](./screenshots/thesigns.gif)
 
 If no song name is given, will return suggested song. 
 
 ### IMDb API
-![alt text](./screenshots/moviess.png)
+![alt text](./screenshots/goodfellas.gif)
 
 Running the command `node liri.js movie-this <'movie name'>` will return the movie info from OMDb. 
 
-![alt text](./screenshots/mrnobody.png)
+![alt text](./screenshots/mrnobody.gif)
 
 If no movie name is given, will return suggested movie. 
 
 ### Node fs file reader
-![alt text](./screenshots/randomss.png)
+![alt text](./screenshots/do.gif)
 
 Running the command `node liri.js do-what-it-says` will read a command out of the `random.txt` file and perform it. 
 Note that in this case, the `random.txt` file contians the command to Spotify the song "I Want It That Way". The `random.txt` file can be changed to perform any of the 3 types of commands listed above.
 
 ### Error Handling
-![alt text](./screenshots/errorss.png)
+![alt text](./screenshots/err.gif)
 
 If the LIRI inputs are incomplete, the user will be prompted with a list of possible commands. 
