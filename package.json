@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "geocoder": "^0.2.3",
     "grunt": "^1.0.3",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-less": "^2.0.0",
-    "grunt-contrib-uglify": "^3.3.0",
-    "inquirer": "^6.1.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "inquirer": "^6.2.2",
+    "lodash": "^4.17.11",
     "node-spotify-api": "^1.0.7",
     "request": "^2.88.0",
     "twitter": "^1.7.1"
